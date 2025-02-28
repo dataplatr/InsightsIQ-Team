@@ -10,7 +10,7 @@ project_name: "insightIQ"
 #   }
 # }
 application:insightIQ {
-  label: "Explore Assistant"
+  label: "insightIQ"
   url: "https://localhost:8080/bundle.js"
   file: "bundle.js"
   entitlements: {

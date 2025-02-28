@@ -9,7 +9,7 @@ project_name: "insightIQ"
 #     core_api_methods: ["me"] #Add more entitlements here as you develop new functionality
 #   }
 # }
-application: explore_assistant {
+application:insightIQ {
   label: "Explore Assistant"
   url: "https://localhost:8080/bundle.js"
   file: "bundle.js"

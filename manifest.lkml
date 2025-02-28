@@ -19,7 +19,7 @@ application:insightIQ {
     use_embeds: yes
     use_iframes: yes
     new_window: yes
-    new_window_external_urls: ["https://developers.generativeai.google/*"]
+    new_window_external_urls: ["https://insight-iq-backend-636080826235.us-central1.run.app*"]
     local_storage: yes
     external_api_urls: ["https://insight-iq-backend-636080826235.us-central1.run.app"]
   }

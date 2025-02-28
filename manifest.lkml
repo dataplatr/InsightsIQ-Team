@@ -22,7 +22,7 @@ application: insightIQ {
     use_embeds: yes
     use_iframes: yes
     new_window: yes
-    new_window_external_urls: ["https://developers.generativeai.google/*"]
+    new_window_external_urls: ["https://timestone.cloud.looker.com/embed/dashboards/340*"]
     local_storage: yes
     # external_api_urls: ["cloud function url"]
   }

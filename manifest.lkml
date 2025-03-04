@@ -24,7 +24,9 @@ application: insightIQ {
     new_window: yes
     new_window_external_urls: ["https://developers.generativeai.google/*"]
     local_storage: yes
-    external_api_urls: ["https://34.67.214.24/insights_from_agent/"]
+    external_api_urls: [ "http://34.67.214.24",
+  "https://localhost:8080",
+  "https://generativelanguage.googleapis.com"]
   }
 }
 # application:insightIQ {

@@ -21,12 +21,11 @@ application: insightIQ {
     navigation: yes
     use_embeds: yes
     use_iframes: yes
-    new_window: yes
-    new_window_external_urls: ["https://developers.generativeai.google/*"]
+    # new_window: yes
+    # new_window_external_urls: ["https://developers.generativeai.google/*"]
     local_storage: yes
-    external_api_urls: [ "http://34.67.214.24",
-  "https://localhost:8080",
-  "https://generativelanguage.googleapis.com"]
+    external_api_urls: [ "https://insight-iq-backend-636080826235.us-central1.run.app/insights_from_agent",
+  "https://localhost:8080"]
   }
 }
 # application:insightIQ {

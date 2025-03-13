@@ -46,7 +46,7 @@ datagroup: insightiq_poc1_default_datagroup {
 persist_with: insightiq_poc1_default_datagroup
 
 explore: campaigns {
-  label: "Campaign Performance"
+  # label: "Campaign Performance"
   description: "Explores campaign details, including metrics, teams, and team members."
 
   join: campaign_metrics {

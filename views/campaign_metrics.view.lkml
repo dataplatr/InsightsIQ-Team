@@ -110,4 +110,34 @@ view: campaign_metrics {
     description: "Total number of campaign records."
     drill_fields: [campaigns.campaign_name, campaigns.campaign_id]
   }
+  measure: total_conversation {
+    type: sum
+    label: "total conversation"
+    description: "Total number of conversation."
+    sql: ${conversions} ;;
+}
+  measure: total_cost_per_inquiry {
+    type: sum
+    label: "total cost per inquiry"
+    description: "Total number of cost per inquiry."
+    sql: ${cost_per_inquiry} ;;
+  }
+  measure: total_clicks {
+    type: sum
+    label: "total clicks"
+    description: "Total number of clicks."
+    sql: ${clicks} ;;
+  }
+  measure: total_impressions{
+    type: sum
+    label: "total impressions"
+    description: "Total number of impressions."
+    sql: ${impressions} ;;
+  }
+  measure: total_roi{
+    type: sum
+    label: "total roi"
+    description: "Total number of roi."
+    sql: ${roi} ;;
+  }
 }
